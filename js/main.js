@@ -28,17 +28,17 @@ console.log(total);
 if (total < 10000) {
     alert("Felicitaciones " + usuario + " a usted le corresponde una cuenta BASICA")
     console.log("BASICA")
-    document.write("<h1> Felicitaciones " + usuario + " a usted le corresponde una cuenta <a style=color:Red;>BASICA</a> </h1>")
+    document.write("<h1> Felicitaciones " + usuario + " a usted le corresponde una cuenta <a style=color:Red;>BASICA</a> </h1>");
 } else if (total >= 10000 && total <=49999) {
     alert("Felicitaciones " + usuario + " a usted le corresponde una cuenta GOLD")
     console.log("GOLD")
-    document.write("<h1> Felicitaciones " + usuario + " a usted le corresponde una cuenta <a style=color:#E6C900;>GOLD</a> </h1>")
+    document.write("<h1> Felicitaciones " + usuario + " a usted le corresponde una cuenta <a style=color:#E6C900;>GOLD</a> </h1>");
 } else if (total >= 50000 && total <=99999) {
     alert("Felicitaciones " + usuario + " a usted le corresponde una cuenta PLATINUM")
     console.log("PLATINUM")
-    document.write("<h1> Felicitaciones " + usuario + " a usted le corresponde una cuenta <a style=color:#0057A0;>PLATINUM</a></h1>")
-} else if (total > 100000) {
+    document.write("<h1> Felicitaciones " + usuario + " a usted le corresponde una cuenta <a style=color:#0057A0;>PLATINUM</a></h1>");
+} else if (total > 10000) {
     alert("Felicitaciones " + usuario + " a usted le corresponde una cuenta BLACK")
     console.log("BLACK")
-    document.write("<h1> Felicitaciones " + usuario + " a usted le corresponde una cuenta <a style=color:#000000;>BLACK</a></h1>")
+    document.write("<h1> Felicitaciones " + usuario + " a usted le corresponde una cuenta <a style=color:#000000;>BLACK</a></h1>");
 }
